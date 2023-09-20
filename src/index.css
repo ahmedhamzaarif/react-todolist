@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{background-color: #d4cadb;}
+#todo:checked + label{text-decoration: line-through;color: #666;}
+.title{color:#4c4452;}
+/* .btn{background-color: #695876;} */
